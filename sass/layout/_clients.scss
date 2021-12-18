@@ -1,0 +1,11 @@
+.clients {
+    &__title {
+        margin-bottom: 50px;
+    }
+    &__list {
+        display: flex;
+    }
+    &__clients-card {
+        margin-right: 30px;
+    }
+}

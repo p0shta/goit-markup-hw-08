@@ -1,0 +1,15 @@
+.portfolio {
+    &__filter {
+        margin-bottom: 50px;
+    }
+    &__products {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -30px;
+        margin-bottom: -30px;
+    }
+    &__product {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+}

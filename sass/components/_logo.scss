@@ -1,0 +1,15 @@
+.logo {
+    display: block;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.75;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    &--dark {
+        color: #000000;
+    }
+    &--white {
+        color: #ffffff;
+    }
+}

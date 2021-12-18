@@ -1,0 +1,14 @@
+.works {
+    &__box {
+        padding-bottom: 94px;
+    }
+    &__title {
+        margin-bottom: 50px;
+    }
+    &__list {
+        display: flex;
+    }
+    &__works-card {
+        margin-right: 30px;
+    }
+}
