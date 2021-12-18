@@ -11,4 +11,7 @@
     &__works-card {
         margin-right: 30px;
     }
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
 }

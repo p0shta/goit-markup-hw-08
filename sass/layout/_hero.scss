@@ -1,27 +1,57 @@
 .hero {
-    max-width: 1600px;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/main/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    @media screen and (max-width: 767px) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/main/hero-mobile.jpg);
+    }
+    @media screen and (min-width: 768px) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/main/hero-mobile-big.jpg);
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 1600px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/main/hero.jpg);
+    }
     &__container {
-        padding: 200px 0;
+        padding: 118px 0;
+        @media screen and (min-width: 1200px) {
+            padding: 200px 0;
+        }
     }
     &__title-wrap {
-        width: 696px;
         margin: 0 auto 30px;
+        @media screen and (min-width: 480px) {
+            width: 360px;
+        }
+        @media screen and (min-width: 768px) {
+            width: 360px;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 696px;
+        }
     }
     &__title {
-        display: block;
-        min-width: 696px;
         font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
+        font-size: 26px;
+        line-height: 1.62;
+        text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        text-align: center;
         color: var(--main-title-color);
+
+        @media screen and (min-width: 1200px) {
+            min-width: 696px;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            text-align: center;
+            color: var(--main-title-color);
+        }
     }
     &__btn {
         margin: 0 auto;

@@ -1,8 +1,20 @@
 .features {
     &__list {
-        display: flex;
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        }
     }
     &__features-card {
-        margin-right: 30px;
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+        @media screen and (min-width: 1200px) {
+            margin-right: 30px;
+        }
     }
 }
