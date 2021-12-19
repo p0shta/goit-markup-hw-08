@@ -2,6 +2,7 @@
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     @media screen and (max-width: 767px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/main/hero-mobile.jpg);
