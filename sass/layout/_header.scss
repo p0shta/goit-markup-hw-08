@@ -3,10 +3,13 @@
     &__container {
         display: flex;
         align-items: center;
+        @media screen and (max-width: 767px) {
+            justify-content: space-between;
+        }
     }
     &__logo {
         @media screen and (max-width: 767px) {
-            padding: 16px;
+            padding: 16px 0;
         }
         @media screen and (min-width: 768px) {
             margin-right: 93px;
@@ -14,6 +17,11 @@
     }
     &__header-contacts {
         margin-left: auto;
+    }
+    &__menu-burger {
+        @media screen and (min-width: 767px) {
+            display: none;
+        }
     }
 }
 

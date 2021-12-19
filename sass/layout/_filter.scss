@@ -1,7 +1,14 @@
 .filter {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    @media screen and (min-width: 768px) {
+        justify-content: center;
+    }
+
     &__item {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 15px;
+        }
         margin-right: 8px;
     }
     &__btn {

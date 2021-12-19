@@ -1,15 +1,28 @@
 .portfolio {
     &__filter {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 40px;
+        }
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
+        }
     }
     &__products {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -30px;
-        margin-bottom: -30px;
+        @media screen and (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        @media screen and (min-width: 1200px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+        }
     }
-    &__product {
-        margin-right: 30px;
-        margin-bottom: 30px;
+    &__product:not(:last-child) {
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
     }
 }
