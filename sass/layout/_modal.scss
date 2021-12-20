@@ -115,6 +115,7 @@
     }
     &__label {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         font-weight: 400;
         font-size: 12px;
@@ -144,14 +145,17 @@
         margin-left: 4px;
         font-weight: 400;
         font-size: 12px;
-        @media screen and (min-width: 1200px) {
-            font-size: 14px;
-        }
 
         line-height: 1.71;
         letter-spacing: 0.03em;
         text-decoration-line: underline;
         color: var(--accent-color);
+        @media screen and (max-width: 479px) {
+            margin: 0 auto;
+        }
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+        }
     }
 }
 

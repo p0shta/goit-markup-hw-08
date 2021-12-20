@@ -19,14 +19,14 @@
         margin-left: auto;
     }
     &__menu-burger {
-        @media screen and (min-width: 767px) {
+        @media screen and (min-width: 768px) {
             display: none;
         }
     }
 }
 
 .menu {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         display: none;
     }
     &__list {
@@ -63,7 +63,7 @@
 }
 
 .header-contacts {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         display: none;
     }
     @media screen and (min-width: 1200px) {
