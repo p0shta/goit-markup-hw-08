@@ -6,7 +6,12 @@
         }
     }
     &__list {
-        @media screen and (min-width: 480px) and (max-width: 1199px) {
+        @media screen and (min-width: 480px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1199px) {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 30px;

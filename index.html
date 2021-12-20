@@ -180,31 +180,52 @@
                     <ul class="works__list">
                         <li class="works-card works__works-card">
                             <div class="works-card__wrap">
-                                <img
-                                    src="./images/main/img1.jpg"
-                                    alt="Десктопные приложения"
-                                    width="370"
-                                />
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./images/main/img1.jpg    1x,
+                                            ./images/main/img1-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    />
+
+                                    <img src="./images/main/img1.jpg" alt="Десктопные приложения" />
+                                </picture>
+
                                 <p class="works-card__text">Десктопные приложения</p>
                             </div>
                         </li>
                         <li class="works-card works__works-card">
                             <div class="works-card__wrap">
-                                <img
-                                    src="./images/main/img2.jpg"
-                                    alt="Мобильные приложения"
-                                    width="370"
-                                />
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./images/main/img2.jpg    1x,
+                                            ./images/main/img2-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    />
+
+                                    <img src="./images/main/img2.jpg" alt="Мобильные приложения" />
+                                </picture>
+
                                 <p class="works-card__text">Мобильные приложения</p>
                             </div>
                         </li>
                         <li class="works-card">
                             <div class="works-card__wrap">
-                                <img
-                                    src="./images/main/img3.jpg"
-                                    alt="Дизайнерские решения"
-                                    width="370"
-                                />
+                                <picture>
+                                    <source
+                                        srcset="
+                                            ./images/main/img3.jpg    1x,
+                                            ./images/main/img3-2x.jpg 2x
+                                        "
+                                        media="(min-width: 1200px)"
+                                    />
+
+                                    <img src="./images/main/img3.jpg" alt="Дизайнерские решения" />
+                                </picture>
+
                                 <p class="works-card__text">Дизайнерские решения</p>
                             </div>
                         </li>
@@ -217,10 +238,33 @@
                     <h2 class="title team__title">Наша команда</h2>
                     <ul class="team__list">
                         <li class="team__team-card team-card">
-                            <img
-                                src="./images/main/team1.jpg"
-                                alt="Игорь Демьяненко. Продакт-дизайнер"
-                            />
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./images/main/team1.jpg    1x,
+                                        ./images/main/team1-2x.jpg 2x
+                                    "
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team1-tab.jpg    1x,
+                                        ./images/main/team1-tab-2x.jpg 2x
+                                    "
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team1-mob.jpg    1x,
+                                        ./images/main/team1-mob-2x.jpg 2x
+                                    "
+                                    media="(min-width: 320px)"
+                                />
+                                <img
+                                    src="./images/main/team1.jpg"
+                                    alt="Игорь Демьяненко. Продакт-дизайнер"
+                                />
+                            </picture>
                             <div class="team-card__wrap">
                                 <h3 class="team-card__title">Игорь Демьяненко</h3>
                                 <p class="team-card__text">Product Designer</p>
@@ -257,10 +301,34 @@
                             </div>
                         </li>
                         <li class="team__team-card team-card">
-                            <img
-                                src="./images/main/team2.jpg"
-                                alt="Ольга Репина. Фронт-энд разработчик"
-                            />
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./images/main/team2.jpg    1x,
+                                        ./images/main/team2-2x.jpg 2x
+                                    "
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team2-tab.jpg    1x,
+                                        ./images/main/team2-tab-2x.jpg 2x
+                                    "
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team2-mob.jpg    1x,
+                                        ./images/main/team2-mob-2x.jpg 2x
+                                    "
+                                    media="(min-width: 320px)"
+                                />
+                                <img
+                                    src="./images/main/team2.jpg"
+                                    alt="Ольга Репина. Фронт-энд разработчик"
+                                />
+                            </picture>
+
                             <div class="team-card__wrap">
                                 <h3 class="team-card__title">Ольга Репина</h3>
                                 <p class="team-card__text">Frontend Developer</p>
@@ -297,7 +365,34 @@
                             </div>
                         </li>
                         <li class="team__team-card team-card">
-                            <img src="./images/main/team3.jpg" alt="Николай Тарасов. Маркетолог" />
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./images/main/team3.jpg    1x,
+                                        ./images/main/team3-2x.jpg 2x
+                                    "
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team3-tab.jpg    1x,
+                                        ./images/main/team3-tab-2x.jpg 2x
+                                    "
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team3-mob.jpg    1x,
+                                        ./images/main/team3-mob-2x.jpg 2x
+                                    "
+                                    media="(min-width: 320px)"
+                                />
+                                <img
+                                    src="./images/main/team3.jpg"
+                                    alt="Николай Тарасов. Маркетолог"
+                                />
+                            </picture>
+
                             <div class="team-card__wrap">
                                 <h3 class="team-card__title">Николай Тарасов</h3>
                                 <p class="team-card__text">Marketing</p>
@@ -334,10 +429,34 @@
                             </div>
                         </li>
                         <li class="team-card">
-                            <img
-                                src="./images/main/team4.jpg"
-                                alt="Михаил Ермаков. Дизайнер интерфейсов"
-                            />
+                            <picture>
+                                <source
+                                    srcset="
+                                        ./images/main/team4.jpg    1x,
+                                        ./images/main/team4-2x.jpg 2x
+                                    "
+                                    media="(min-width: 1200px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team4-tab.jpg    1x,
+                                        ./images/main/team4-tab-2x.jpg 2x
+                                    "
+                                    media="(min-width: 768px)"
+                                />
+                                <source
+                                    srcset="
+                                        ./images/main/team4-mob.jpg    1x,
+                                        ./images/main/team4-mob-2x.jpg 2x
+                                    "
+                                    media="(min-width: 320px)"
+                                />
+                                <img
+                                    src="./images/main/team4.jpg"
+                                    alt="Михаил Ермаков. Дизайнер интерфейсов"
+                                />
+                            </picture>
+
                             <div class="team-card__wrap">
                                 <h3 class="team-card__title">Михаил Ермаков</h3>
                                 <p class="team-card__text">UI Designer</p>
