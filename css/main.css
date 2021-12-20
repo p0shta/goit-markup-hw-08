@@ -1278,7 +1278,7 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .clients__list {
     display: -ms-grid;
     display: grid;
